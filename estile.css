@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* HEADER boostrap*/
+.navbar{
+    padding: 1.2%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link {
+  padding-right: 30px;
+  font-size: 18px ;
+ }
+ .navbar-brand {
+    font-size: 23px;
+    }
+
+
+.fondo {
+    background-image: url("./fotos/hawaii.jpg");
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    background-color: rgb(71, 70, 70);
+    background-blend-mode: soft-light;
+
+    text-align: right;
+    padding-right: 5%;
+}
+
+
+
+/* TITULOS ORADORES */
+.titulo-oradores {
+    text-align: center;
+    padding-top: 15px;
+}
+
+/* FORMULARIO */
+
+.formulario {
+    width: 50%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.btn-form {
+    background-color: #89d82ece;
+    color: aliceblue;
+    font-weight: bolder;
+    border-radius: 5px;
+    padding: 7px;
+    border: none;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: rgb(30, 79, 109);
+    padding: 2%;
+    text-align: center;
+   display: flex;
+    justify-content: space-around; 
+}
+
+.footer a {
+    color: antiquewhite;
+    text-decoration: none;
+    
+}
+
+.col-6 img{
+    padding: 0%;
+}
+
+
+/*FOOTER RESPONSIVE*/
+@media only screen and (max-width: 600px) {
+    .footer {
+        width: 100%;
+        background-color: rgb(30, 79, 109);
+        padding: 2%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .footer {
+        width: 100%;
+        background-color: rgb(30, 79, 109);
+        padding: 2%;
+        text-align: center;
+        display: flex;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .footer {
+        width: 100%;
+        background-color: rgb(30, 79, 109);
+        padding: 2%;
+        text-align: center;
+        display: flex;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .footer {
+        width: 100%;
+        background-color: rgb(30, 79, 109);
+        padding: 2%;
+        text-align: center;
+        display: flex;
+    }
+}
+/* Extra l
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .footer {
+        width: 100%;
+        background-color: rgb(30, 79, 109);
+        padding: 2%;
+        text-align: center;
+        display: flex;
+    }
+}
